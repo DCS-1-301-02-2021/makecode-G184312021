@@ -1,0 +1,12 @@
+{
+    "image1": {
+        "data": "hwQQABAAAAAAAABAAAAAAAAAAEQEAAAAAAAAlQUAAAAAAACVBQAAAAAAkJWVAAAAAABAVUUAAAAAAJRVlQQAAABAlVWVRQAAAECVVZVFAAAAQJlFlUkAAABACUQESQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Dogy"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
