@@ -46,7 +46,7 @@ controller.A.on_event(
 def on_update():
     bogy=sprites.create(assets.image("""Dogy"""),
         SpriteKind.enemy)
-    bogy.set_velocity(-100, randint(-30, 30))
+    bogy.set_velocity(-250, randint(-30, 30))
     bogy.y=randint(0, scene.screen_height())
     bogy.left=scene.screen_width()
     bogy.set_flag(SpriteFlag.AUTO_DESTROY, True)

@@ -42,7 +42,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function on_a_pressed() {
 })
 game.onUpdateInterval(500, function on_update() {
     let bogy = sprites.create(assets.image`Dogy`, SpriteKind.Enemy)
-    bogy.setVelocity(-100, randint(-30, 30))
+    bogy.setVelocity(-250, randint(-30, 30))
     bogy.y = randint(0, scene.screenHeight())
     bogy.left = scene.screenWidth()
     bogy.setFlag(SpriteFlag.AutoDestroy, true)
